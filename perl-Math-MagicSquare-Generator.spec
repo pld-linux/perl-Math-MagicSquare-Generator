@@ -35,7 +35,7 @@ we wszystkich kolumnach i na dwóch przek±tnych s± równe.
 
 Math::MagicSquare::Generator nie potrafi tworzyæ kwadratów
 panmagicznych ani kwadratów o parzystym rozmiarze (kwadrat panmagiczny
-to kwadrat magiczny, w którym sumy na "zawieniêtych" przek±tnych s±
+to kwadrat magiczny, w którym sumy na "zawiniêtych" przek±tnych s±
 tak¿e równe).
 
 %prep
