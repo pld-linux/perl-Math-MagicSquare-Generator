@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	MagicSquare-Generator
+%define		pdir	Math
+%define		pnam	MagicSquare-Generator
 Summary:	Math::MagicSquare::Generator - Magic Square generator
 Summary(pl):	Math::MagicSquare::Generator - generator kwadratów magicznych
 Name:		perl-Math-MagicSquare-Generator
