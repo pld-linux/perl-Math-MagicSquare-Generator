@@ -10,7 +10,7 @@ Summary(pl):	Math::MagicSquare::Generator - generator kwadratów magicznych
 Name:		perl-Math-MagicSquare-Generator
 Version:	0.01
 Release:	1
-License:	free (see README)
+License:	Public Domain
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	408501cf0474f95234eb1bfdb4832d42
