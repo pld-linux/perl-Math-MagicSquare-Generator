@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	MagicSquare-Generator
 Summary:	Math::MagicSquare::Generator - Magic Square generator
-Summary(pl):	Math::MagicSquare::Generator - generator kwadratów magicznych
+Summary(pl.UTF-8):   Math::MagicSquare::Generator - generator kwadratÃ³w magicznych
 Name:		perl-Math-MagicSquare-Generator
 Version:	0.01
 Release:	1
@@ -28,15 +28,15 @@ Math::MagicSquare::Generator cannot create panmagic squares, or
 squares that have an even size. (A panmagic square is magic square
 where the "wrapped" diagonals are also equal.)
 
-%description -l pl
-Ten modu³ tworzy kwadraty magiczne. Kwadrat magiczny to kwadrat, w
-którym wszystkie liczby s± ró¿ne, a sumy we wszystkich wierszach,
-we wszystkich kolumnach i na dwóch przek±tnych s± równe.
+%description -l pl.UTF-8
+Ten moduÅ‚ tworzy kwadraty magiczne. Kwadrat magiczny to kwadrat, w
+ktÃ³rym wszystkie liczby sÄ… rÃ³Å¼ne, a sumy we wszystkich wierszach,
+we wszystkich kolumnach i na dwÃ³ch przekÄ…tnych sÄ… rÃ³wne.
 
-Math::MagicSquare::Generator nie potrafi tworzyæ kwadratów
-panmagicznych ani kwadratów o parzystym rozmiarze (kwadrat panmagiczny
-to kwadrat magiczny, w którym sumy na "zawiniêtych" przek±tnych s±
-tak¿e równe).
+Math::MagicSquare::Generator nie potrafi tworzyÄ‡ kwadratÃ³w
+panmagicznych ani kwadratÃ³w o parzystym rozmiarze (kwadrat panmagiczny
+to kwadrat magiczny, w ktÃ³rym sumy na "zawiniÄ™tych" przekÄ…tnych sÄ…
+takÅ¼e rÃ³wne).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
