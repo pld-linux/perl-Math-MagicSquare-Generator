@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	MagicSquare-Generator
 Summary:	Math::MagicSquare::Generator - Magic Square generator
-Summary(pl.UTF-8):   Math::MagicSquare::Generator - generator kwadratów magicznych
+Summary(pl.UTF-8):	Math::MagicSquare::Generator - generator kwadratów magicznych
 Name:		perl-Math-MagicSquare-Generator
 Version:	0.01
 Release:	1
