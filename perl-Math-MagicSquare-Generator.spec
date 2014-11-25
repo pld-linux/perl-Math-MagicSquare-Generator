@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	MagicSquare-Generator
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::MagicSquare::Generator - Magic Square generator
 Summary(pl.UTF-8):	Math::MagicSquare::Generator - generator kwadratów magicznych
 Name:		perl-Math-MagicSquare-Generator
@@ -14,6 +14,7 @@ License:	Public Domain
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	408501cf0474f95234eb1bfdb4832d42
+URL:		http://search.cpan.org/dist/Math-MagicSquare-Generator/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -30,8 +31,8 @@ where the "wrapped" diagonals are also equal.)
 
 %description -l pl.UTF-8
 Ten moduł tworzy kwadraty magiczne. Kwadrat magiczny to kwadrat, w
-którym wszystkie liczby są różne, a sumy we wszystkich wierszach,
-we wszystkich kolumnach i na dwóch przekątnych są równe.
+którym wszystkie liczby są różne, a sumy we wszystkich wierszach, we
+wszystkich kolumnach i na dwóch przekątnych są równe.
 
 Math::MagicSquare::Generator nie potrafi tworzyć kwadratów
 panmagicznych ani kwadratów o parzystym rozmiarze (kwadrat panmagiczny
