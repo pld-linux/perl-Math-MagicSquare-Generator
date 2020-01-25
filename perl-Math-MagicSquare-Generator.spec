@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	MagicSquare-Generator
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::MagicSquare::Generator - Magic Square generator
 Summary(pl.UTF-8):	Math::MagicSquare::Generator - generator kwadratów magicznych
 Name:		perl-Math-MagicSquare-Generator
